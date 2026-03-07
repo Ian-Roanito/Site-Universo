@@ -1,0 +1,44 @@
+@charset "Utf-8";
+
+@font-face {
+    font-family: 'Universe';
+    src: url('../fontes/Universe\ PersonalUseOnly.ttf') format('truetype');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+
+    /*Paltea de cores do site*/
+    --cor0: #DADBE8;
+    --cor1: #8B8DBD;
+    --cor2: #4D5093;
+    --cor3: #262869;
+    --cor4: #0C0E3E;
+    --cor5: #010333;
+
+    /*Fontes*/
+    --fonte-destaque: 'Universe';
+    --fonte-padrao: "Space Mono", monospace;
+}
+
+footer {
+    background-color: var(--cor4);
+    color: white;
+    text-align: center;
+}
+
+footer p {
+    padding: 15px;
+}
+
+footer p > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+footer p > a:hover {
+    text-decoration: underline;
+}
+

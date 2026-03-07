@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+#img-mercurio {
+    background: #262869 url('../imagens/mercurio-fundo.jpg') center center no-repeat scroll;
+    background-size: cover;
+}
+
+#img-venus {
+    background: #262869 url('../imagens/venus-fundo.jpg') top center no-repeat scroll;
+    background-size: cover;
+}
+
+#img-terra {
+    background: #007bbf url('../imagens/nasa-Q1p7bh3SHj8-unsplash-768x461.jpg') center center no-repeat scroll;
+    background-size: cover;
+}
+
+#img-marte {
+    background: #262869 url('../imagens/marte-fundo.jpg') top center no-repeat scroll;
+    background-size: cover;
+}
+
+#img-jupter {
+    background: #262869 url('../imagens/jupter-fundo02.jpg') top center no-repeat scroll;
+    background-size: cover;
+}
+
+#img-saturno {
+    background: #262869 url('../imagens/saturno-fundo.jpg') top center no-repeat scroll;
+    background-size: cover;
+}
+
+#img-urano {
+    background: #262869 url('../imagens/urano-fundo.png') center center no-repeat scroll;
+    background-size: cover;
+}
+
+#img-netuno {
+    background: #262869 url('../imagens/netuno-fundo.jpg') center center no-repeat scroll;
+    background-size: cover;
+}
