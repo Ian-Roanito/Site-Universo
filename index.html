@@ -10,34 +10,41 @@
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/imagens-fundo-planetas.css">
-    <title>Curiosidades sobre o Universo</title>
 
-    <style>
-        * {
-            margin: 0px;
-            padding: 0px;
-        }
-
-    </style>    
+    <!-- Bootstrap icons -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <!-- ------------------ -->
+    <title>Curiosidades sobre o Universo</title>  
 </head>
 <body>
     <header>
-        <h1>Universo</h1>
-        <p id="p1">As curiosidades dos Planetas do nosso Sistema Solar..</p>
-        <p class="frase-inspiradora">"Diante da vastidão do tempo e da imensidão do universo, <br> é um imenso prazer para mim dividir um planeta e uma época com você." - <a href="https://pt.wikipedia.org/wiki/Carl_Sagan" target="_blank">Carl Sagan</a></p>
+        <div class="interface">
+            <section class="titulo">
+                <h1>Universo</h1>
+            </section>
+            <!-- <p id="p1">As curiosidades dos Planetas do nosso Sistema Solar..</p>
+            <p class="frase-inspiradora">"Diante da vastidão do tempo e da imensidão do universo, <br> é um imenso prazer para mim dividir um planeta e uma época com você." - <a href="https://pt.wikipedia.org/wiki/Carl_Sagan" target="_blank">Carl Sagan</a></p> -->
+            
+            <button class="btn-mobile" id="btn-mobile">
+                <i class="bi bi-list"></i>
+            </button>
+            
+            
+            <nav class="nav-list">
+                <ul>
+                    <li><a href="#link-mercurio" id="link-planetas">Mercúrio</a></li>
+                    <li><a href="#link-venus" id="link-planetas">Vênus</a></li>
+                    <li><a href="#link-terra" id="link-planetas">Terra</a></li>
+                    <li><a href="#link-marte" id="link-planetas">Marte</a></li>
+                    <li><a href="#link-jupter" id="link-planetas">Júpter</a></li>
+                    <li><a href="#link-saturno" id="link-planetas">Saturno</a></li>
+                    <li><a href="#link-urano" id="link-planetas">Urano</a></li>
+                    <li><a href="#link-netuno" id="link-planetas">Netuno</a></li>
+                </ul>
+            </nav>
+        
+        </div>
     </header>
-    <nav> 
-        <img src="imagens-redimin/planet-pq.png" alt="" id="icon-planet">
-        <a href="#link-mercurio" id="link-planetas">Mercúrio</a>
-        <a href="#link-venus" id="link-planetas">Vênus</a>
-        <a href="#link-terra" id="link-planetas">Terra</a>
-        <a href="#link-marte" id="link-planetas">Marte</a>
-        <a href="#link-jupter" id="link-planetas">Júpter</a>
-        <a href="#link-saturno" id="link-planetas">Saturno</a>
-        <a href="#link-urano" id="link-planetas">Urano</a>
-        <a href="#link-netuno" id="link-planetas">Netuno</a>
-        <img src="imagens-redimin/planet-pq.png" alt="" id="icon-planet">
-    </nav>
     <main>
         <section id="primeira">
             <p>O Sistema Solar é composto por oito planetas principais que orbitam o Sol, dividindo em dois grupos distintos: os rochosos (Mercúrio, Vênus, Terra e Marte), que são menores, densos e internos, e os gigantes gasosos ou jovianos (Júpter, Saturno, Urano e Netuno), caracterizados por suas grandes dimensões, atmosferas densas e presença de anéis.</p>
@@ -228,5 +235,6 @@
     <footer>
         <P>Site desenvoldido por <a href="https://github.com/Ian-Roanito" target="_blank">Ian Roanito</a>, para fins de teste de conhecimento.</P>
     </footer>
+    <script src="scripts/btnMenu.js"></script>
 </body>
 </html>
