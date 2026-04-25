@@ -23,7 +23,8 @@ section#primeira {
     background-size: cover;
 }
 
-#primeira > p {
+.interface #primeira > p {
+    font-size: clamp(1em, 5vw, 2.5em);
     line-height: 3em;
     padding: 10px;
     font: italic normal 1.5em var(--fonte-padrao);
@@ -81,9 +82,7 @@ img {
     transition: transform 1.3s ease-in-out;
 }
 
-.box2:hover {
-    transform: scale(1.06);
-}
+
 
 #descricao-planeta {
     width: 100%;
@@ -146,10 +145,7 @@ article > ul {
         margin: 0px;
     }
     
-    .box2:hover {
-         transform: scale(1.03);
-    }
-
+    
     .box1 {
         margin: 20px auto 20px auto;
     }
