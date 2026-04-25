@@ -21,10 +21,12 @@ section#primeira {
     padding-bottom: 20vh;
     background: #0C0E3E url('../imagens/pleiades2-mapa.png') center center no-repeat fixed;
     background-size: cover;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 .interface #primeira > p {
-    font-size: clamp(1em, 5vw, 2.5em);
+    font-size: 1em;
     line-height: 3em;
     padding: 10px;
     font: italic normal 1.5em var(--fonte-padrao);

@@ -3,6 +3,7 @@
 header {
     background-image: linear-gradient(to bottom, var(--cor5), var(--cor3) );
     padding: 40px 0px;
+    width: 100%;
     .interface {
         display: flex;
         justify-content: space-between;
@@ -38,11 +39,11 @@ header {
             display: flex;
             justify-content: center;
             align-items: center;
-
+            gap: 10%;
             list-style-type: none;
 
             li a {
-                margin-left: 30px;
+                
                 padding-bottom: 5px;
                 text-decoration: none;
                 color: white;
@@ -112,9 +113,11 @@ html {
     transition: 1s;
 }
 
-@media screen and (max-width: 910px) {
+@media screen and (min-width: 330px) and (max-width: 910px) {
 
-    
+    body {
+        overflow-x: hidden;
+    }
 
     header .interface .btn-mobile{
         display: block;
@@ -127,7 +130,7 @@ html {
         top: 0;
         right: 0;
         height: 100vh;
-        width: 100%;
+        width: 350px;
         
         z-index: 2;
         background-color: black;
@@ -135,21 +138,22 @@ html {
         transition: transform 0.8s ease-in-out; 
         
         ul {
-            height: 100vh;
+            height: 100%;
+            padding: 50px 0px;
             flex-direction: column;
             justify-content: center;
             align-items: center;
             gap: 6%;
-            
-
-            a {
-                font-size: 1.3em;
-            }
         }
 
         &.show {
             transform: translateX(0);
         }
+    }
+
+    .nav-list ul li a {
+        font-size: 1.3em;
+        margin-left: 0px
     }
 
 }
