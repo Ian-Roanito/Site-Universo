@@ -114,9 +114,7 @@ html {
 
 @media screen and (max-width: 910px) {
 
-    body {
-        overflow-x: hidden;
-    }
+    
 
     header .interface .btn-mobile{
         display: block;
